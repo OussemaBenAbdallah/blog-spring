@@ -1,0 +1,7 @@
+spring:
+  data:
+    mongodb:
+      authentication-database: admin
+      database: blog
+      port: 27017
+      host: ec2-54-246-249-206.eu-west-1.compute.amazonaws.com

@@ -1,0 +1,48 @@
+{
+  "properties": [
+    {
+      "name": "spring.data",
+      "type": "java.lang.String",
+      "description": "Description for spring.data."
+    },
+    {
+      "name": "spring.mongodb.authentication-database",
+      "type": "java.lang.String",
+      "description": "Description for spring.mongodb.authentication-database."
+    },
+    {
+      "name": "spring.mongodb.username",
+      "type": "java.lang.String",
+      "description": "Description for spring.mongodb.username."
+    },
+    {
+      "name": "spring.mongodb.password",
+      "type": "java.lang.String",
+      "description": "Description for spring.mongodb.password."
+    },
+    {
+      "name": "spring.mongodb.database",
+      "type": "java.lang.String",
+      "description": "Description for spring.mongodb.database."
+    },
+    {
+      "name": "spring.mongodb.port",
+      "type": "java.lang.String",
+      "description": "Description for spring.mongodb.port."
+    },
+    {
+      "name": "spring.mongodb.host",
+      "type": "java.lang.String",
+      "description": "Description for spring.mongodb.host."
+    },
+    {
+      "name": "spring.mongodb.uri",
+      "type": "java.lang.String",
+      "description": "Description for spring.mongodb.uri."
+    },
+    {
+      "name": "spring.data.mongodb",
+      "type": "java.lang.String",
+      "description": "Description for spring.data.mongodb."
+    }
+  ] }

@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html lang="en" xmlns:th="https://www.thymeleaf.org">
+<head>
+    <meta charset="UTF-8">
+    <title>Create a new post</title>
+</head>
+<body>
+<h1>Create New post</h1>
+<br />
+<form action="#" th:action="@{add}" th:object="${post}" method="post">
+
+    <table th:cellpadding="10">
+        <tr>
+            <td>Post title:</td>
+            <td><input type="text" th:field="*{title}" /></td>
+        </tr>
+        <tr>
+            <td>body:</td>
+            <td><textarea type="text" th:field="*{body}"></textarea></td>
+        </tr>
+        <tr>
+            <td colspan="2"><button type="submit">Add</button> </td>
+        </tr>
+    </table>
+</form>
+
+</body>
+</html>
