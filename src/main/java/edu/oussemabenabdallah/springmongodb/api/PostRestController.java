@@ -21,7 +21,6 @@ public class PostRestController {
     @GetMapping
     public List<Post> getAllPosts() {
         return repository.findAll();
-
     }
 
     @GetMapping(path = "/{id}")
