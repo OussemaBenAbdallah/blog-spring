@@ -1,0 +1,12 @@
+version: "3"
+services:
+  blog-express:
+    image: blog-spring:1.0
+    build: .
+    container_name: blog-spring
+    ports:
+      - 8080:8080
+    environment:
+      DB_SERVER: blog-mongo
+    external_links:
+      - blog-mongo
