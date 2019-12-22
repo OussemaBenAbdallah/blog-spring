@@ -1,8 +1,8 @@
 version: '3.7'
 services:
-  blog-mongo:
+  blog-mongo-spring:
     image: "mongo"
-    container_name: "blog-mongo"
+    container_name: "blog-mongo-spring"
     volumes:
       - /home/ec2-user/data:/data/db
     ports:
@@ -15,7 +15,7 @@ services:
     ports:
       - 8080:8080
     environment:
-      DB_SERVER: blog-mongo
+      DB_SERVER: blog-mongo-spring
     links:
-      - blog-mongo
+      - blog-mongo-spring
 
